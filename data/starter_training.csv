@@ -1,0 +1,41 @@
+repository,function,line,loc,statements,parameters,nesting,complexity,calls,loops,branches,label,review_rationale,source_file,label_author,dataset_kind
+authored-module:orders,subtotal,2,2,1,1,0,2,1,0,0,0,Focused subtotal computation with a descriptive interface.,data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,eligible,7,4,3,1,1,2,0,0,1,0,Guard clause keeps eligibility decision explicit.,data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,receipt_id,14,2,1,1,0,1,0,0,0,0,Single-purpose formatting operation.,data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,total,19,5,4,2,0,1,3,0,0,0,Related calculations are delegated to named operations.,data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,accept,27,9,8,1,6,7,0,1,5,1,Order acceptance is buried in interdependent nested conditions.,data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,checkout,39,7,6,6,0,1,5,0,0,1,"Checkout mixes storage, payment, notification and presentation responsibilities.",data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,price,49,7,6,7,1,3,0,0,2,1,Several opaque positional switches obscure checkout behavior.,data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:orders,update,59,12,10,1,6,7,2,2,4,1,"Iteration, validation and pricing are tangled in the same nested traversal.",data/starter_sources/orders.py,AI assistant,assistant-authored educational example
+authored-module:accounts,normalize_email,2,2,1,1,0,1,2,0,0,0,Simple normalized identifier transformation.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,can_login,7,6,5,1,1,3,0,0,2,0,Explicit preconditions followed by one authorization decision.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,find_user,16,3,2,2,0,1,2,0,0,0,Lookup wrapper has a small cohesive purpose.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,has_role,22,2,1,2,0,1,0,0,0,0,Two meaningful domain inputs encode a single permission query.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,authorize,27,10,9,2,7,8,0,2,5,1,Authorization decisions are hidden under repeated account and role nesting.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,register,40,7,6,6,0,1,5,0,0,1,"Registration changes persistence, billing, mail and audit systems in one operation.",data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,change,50,8,7,7,1,4,0,0,3,1,Unexplained boolean arguments make account changes difficult to reason about.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:accounts,policy,61,16,15,2,7,11,0,0,10,1,Many unrelated account policies and nested fallback rules share one implementation.,data/starter_sources/accounts.py,AI assistant,assistant-authored educational example
+authored-module:inventory,remaining,2,2,1,2,0,1,1,0,0,0,Stock adjustment is focused and named.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,available,7,2,1,1,0,3,0,0,0,0,Single selection task expressed directly.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,needs_reorder,12,2,1,1,0,1,0,0,0,0,Domain object keeps related input fields together.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,locate,17,5,4,2,2,3,0,1,1,0,One explicit search with a clear fallback.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,allocate,25,10,9,2,7,8,0,3,4,1,Warehouse allocation couples deeply nested locations and stock conditions.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,receive,38,7,6,6,0,1,4,0,0,1,"Inventory update also triggers finance, notification and reporting.",data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,reorder,48,5,4,8,1,2,1,0,1,1,A wide positional interface lacks cohesive input objects.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:inventory,reconcile,56,13,11,1,6,8,0,3,4,1,Stock processing tangles three traversals and condition-dependent mutation.,data/starter_sources/inventory.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,average,2,4,3,1,1,2,2,0,1,0,A single numeric aggregation.,data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,above_limit,9,2,1,2,0,3,0,0,0,0,A focused filter with a meaningful threshold parameter.,data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,normalize,14,2,1,2,0,2,0,0,0,0,Explicit missing-value normalization.,data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,encode_event,19,2,1,2,0,1,1,0,0,0,Formatting delegates serialization instead of mixing responsibilities.,data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,process,24,7,6,6,0,1,5,0,0,1,"Parsing, persistence, alerting and visual output are mixed together.",data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,alert,34,10,9,1,7,8,0,3,4,1,Alert rules require traversing several nested state combinations.,data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,transform,47,8,7,8,1,4,0,0,3,1,Unclear positional mode flags make an event API error-prone.,data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:telemetry,reading,58,16,15,1,6,10,2,0,9,1,"Many measurement branches mix validation, fallback and unit conversions.",data/starter_sources/telemetry.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,overlaps,2,2,1,2,0,2,0,0,0,0,Focused interval comparison.,data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,chronological,7,2,1,1,0,1,1,0,0,0,Single sorting operation with a descriptive key.,data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,duration,12,4,3,1,1,2,1,0,1,0,A clear guard separates invalid input from the result.,data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,upcoming,19,2,1,2,0,1,1,0,0,0,One query delegates storage concerns.,data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,book,24,7,6,6,0,1,5,0,0,1,"Scheduling combines reservation, payment, reminders and presentation.",data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,slot,34,10,9,2,7,8,0,3,4,1,"Availability decision is obscured by nested staff, room and slot dependencies.",data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,create,47,7,6,8,0,1,0,0,0,1,Separate positional scheduling options are difficult to match with intent.,data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example
+authored-module:scheduling,reschedule,57,13,12,2,6,8,3,0,7,1,Rescheduling combines nested validation with several conditional side effects.,data/starter_sources/scheduling.py,AI assistant,assistant-authored educational example

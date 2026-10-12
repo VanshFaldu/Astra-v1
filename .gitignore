@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+dataset.csv
+server*.log
+
+presentation-build/
+helloflask-main/
+.astra-publish/
+

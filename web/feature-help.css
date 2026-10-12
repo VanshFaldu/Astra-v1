@@ -1,0 +1,7 @@
+.feature-hover{outline:2px solid #93b970!important;outline-offset:3px;border-radius:5px}
+nav button.feature-hover,[data-tab].feature-hover{background:#eaf3e0;color:#3f5b2d}
+.stats article.feature-hover,.finding summary.feature-hover{background:#f5faef}
+.tree summary.feature-hover,th.feature-hover{color:#416725;background:#eff7e7}
+#feature-tooltip{position:fixed;z-index:1200;width:max-content;max-width:min(285px,calc(100vw - 16px));padding:11px 14px;background:#25332c;color:#f0f8e9;border:1px solid #526d46;border-radius:8px;box-shadow:0 8px 24px #17232c30;pointer-events:none;font:12px/1.5 'DM Sans',system-ui,sans-serif}
+#feature-tooltip strong{display:block;color:#c8eea7;font-weight:700;margin-bottom:4px}
+#feature-tooltip span{display:block;color:#d9e2d4;font-size:11px}

@@ -1,0 +1,67 @@
+{
+  "train_samples": 32,
+  "test_samples": 8,
+  "held_out_repositories": [
+    "authored-module:scheduling"
+  ],
+  "variants": {
+    "rules": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "positive_support": 4,
+      "negative_support": 4
+    },
+    "ml": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "positive_support": 4,
+      "negative_support": 4
+    },
+    "hybrid": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "positive_support": 4,
+      "negative_support": 4
+    }
+  },
+  "hybrid_policy": "p >= 0.7 OR (structural rule AND p >= 0.4)",
+  "rule_features": [
+    "loc",
+    "parameters",
+    "nesting",
+    "complexity"
+  ]
+}
